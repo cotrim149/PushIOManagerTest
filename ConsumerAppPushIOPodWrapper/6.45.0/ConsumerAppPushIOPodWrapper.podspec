@@ -13,6 +13,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/pushio/PushIOManager_iOS.git", :tag => "#{spec.version}" }
 
+  spec.static_framework = true
+
   spec.vendored_frameworks = "PushIOManager.framework"
   spec.preserve_paths = "PushIOManager.framework"
 
