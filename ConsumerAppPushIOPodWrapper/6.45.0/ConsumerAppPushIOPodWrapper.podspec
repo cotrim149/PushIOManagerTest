@@ -20,6 +20,6 @@ Pod::Spec.new do |spec|
   spec.library = "sqlite3"
   spec.requires_arc = true
 
-  # spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC -all_load' }
+  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC -all_load' }
 
 end
